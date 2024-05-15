@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "460656378950",
+    "project_id": "imperia-6e6af",
+    "storage_bucket": "imperia-6e6af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460656378950:android:0250aa211d22d3c018f647",
+        "android_client_info": {
+          "package_name": "com.example.imperia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWh9SU1PSKWnOhe1YPJ5lAL6CmVRNlopo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
