@@ -1,9 +1,10 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:imperia/view/screens/home.dart';
+import 'package:imperia/view/screens/login.dart';
+import 'package:imperia/viewmodel/auth/auth_viewmodel.dart';
+
 import 'firebase_options.dart';
-import 'package:imperia/auth.dart';
-import './pages/home.dart';
-import './pages/login.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,6 +43,7 @@ class _InitialNavigationState extends State<InitialNavigation> {
         stream: Auth().authStateChanges,
         builder: (context, snapshot) {
           if (snapshot.hasData) {
+          print(snapshot);
             return HomePage();
           } else {
             return const LoginPage();
